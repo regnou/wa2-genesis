@@ -1,3 +1,3 @@
 # GENESIS
 
-![logo](https://en.wikipedia.org/wiki/Shiva#/media/File:Shiva_cropped.jpg)
+![logo](https://github.com/regnou/genesis/blob/main/i/genesis.jpg)
