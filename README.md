@@ -1,3 +1,3 @@
 # GENESIS
 
-!(http://flash---art.com/app/uploads/2016/08/Rudolf-Stingel2_FlashArt.jpg)
+!(https://en.wikipedia.org/wiki/Shiva#/media/File:Shiva_cropped.jpg)
