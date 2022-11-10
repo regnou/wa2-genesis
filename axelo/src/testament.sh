@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo'
+
 # @@@
 # @@@ SECURITY
 # @@@
@@ -39,15 +41,34 @@ git push --set-upstream origin main
 git push
 # gh repo rename genesis
 
-# $$$ 2- Creation de firebase
+# $$$ 2- Creation d un component sveltekit
+cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo/src/modules_js'
+pnpm create svelte@latest c0
+cd c0
+pnpm i
+pnpm run dev -- --open
+
+# $$$ 3- Creation de firebase
+cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo'
 firebase login:ci
 firebase init
 # wa-xxx
-npm install firebase
+pnpm add firebase
 # TODO - creer firestore en CLI
 
-# $$$ 3- Creation de sveltekit
-npm create svelte@latest my-app
-cd my-app
-npm install
-npm run dev -- --open
+# $$$ - Creation de tailwind
+# https://tailwindcss.com/docs/guides/sveltekit
+# https://github.com/svelte-add/tailwindcss
+npx svelte-add@latest tailwindcss
+# pnpm add install -D tailwindcss postcss autoprefixer svelte-preprocess
+# npx tailwindcss init tailwind.config.cjs -p
+
+# $$$ - Creation d un package
+# svelte-package
+# npm publish ./package
+# npm publish --access public
+# npm adduser
+# regnou.a / ge72+
+
+# $$$ launch demo local
+pnpm run dev -- --open
