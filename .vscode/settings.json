@@ -1,0 +1,58 @@
+{
+  // €€€ FILES
+  "files.exclude": {
+    // --- ok GLOBAL
+    "**/node_modules": true,
+    "firestore-debug.log": true,
+    "firebase-debug.log": true,
+    "pnpm-lock.yaml": true,
+    "ui-debug.log": true,
+    // $$$
+    // "README.md": true,
+    // "package.json": true,
+    // "**/DROP": true,
+    // "z-CHANGELOG.md": true,
+    // "z-.nvmrc--no": true,
+    // "z-.editorconfig--NO": true,
+    // "z-.gitattributes--NO": true,
+    // "z-LICENSE": true,
+    "package-lock.json": true,
+    "jsconfig.json": true,
+    ".firebase": true,
+    ".npmrc": true,
+    ".gitignore": true,
+    ".eslintignore": true,
+    ".prettierignore": true,
+    ".eslintrc.cjs": true,
+    ".prettierrc": true,
+    "vite.config.ts": true,
+    "tsconfig.json": true,
+    "tailwind.config.cjs": true,
+    "svelte.config.js": true,
+    "root.code-workspace": true,
+    "postcss.config.cjs": true,
+    "playwright.config.ts": true,
+    "playwright-ct.config.ts": true,
+    // "JSON_ENTRIES.js": true,
+    ".svelte-kit": true
+    // ".scrapper-kit": true
+  },
+  // €€€ SEARCH
+  "search.exclude": {
+    "**/0-DROP": true,
+    ".svelte-kit": true,
+    ".scrapper-kit": true
+    // "/___ENV__": true,
+    // "/static": true,
+    // "/public": true,
+  }
+  // %%%
+  //   "workbench.colorCustomizations": {
+  //     "tab.activeBackground": "#00aeff",
+  //     "tab.activeBorderTop": "#FFF",
+  //     "tab.activeForeground": "#FFF",
+  //     "tab.inactiveBackground": "#777777",
+  //     "tab.inactiveForeground": "#000000"
+  //   }
+  // "peacock.color": "#61dafb"
+}

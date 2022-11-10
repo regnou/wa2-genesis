@@ -1,5 +1,5 @@
 {
-	"name": "@regnou.a/ui-cell",
+	"name": "@regnou.a/ui-header",
 	"version": "0.0.11",
 	"scripts": {
 		"dev": "vite dev",
@@ -13,7 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"exports": {
-		".": "./Cell.svelte"
+		".": "./Header.svelte"
 	},
 	"devDependencies": {
 		"@playwright/test": "1.25.0",

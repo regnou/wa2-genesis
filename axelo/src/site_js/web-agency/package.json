@@ -1,6 +1,6 @@
 {
-	"name": "@regnou.a/ui-cell",
-	"version": "0.0.11",
+	"name": "@regnou.a/site-web-agency",
+	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
 		"package": "svelte-package",
@@ -12,9 +12,9 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
-	"exports": {
-		".": "./Cell.svelte"
-	},
+	// "exports": {
+	// 	".": "./Header.svelte"
+	// },
 	"devDependencies": {
 		"@playwright/test": "1.25.0",
 		"@sveltejs/adapter-auto": "next",

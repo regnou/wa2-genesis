@@ -65,10 +65,9 @@ npx svelte-add@latest tailwindcss
 
 # $$$ - Creation d un package
 # svelte-package
-# npm publish ./package
 # npm publish --access public
 # npm adduser
 # regnou.a / ge72+
 
 # $$$ launch demo local
-pnpm run dev -- --open
+# pnpm run dev -- --open

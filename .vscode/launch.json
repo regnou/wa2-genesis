@@ -1,0 +1,57 @@
+// ---
+// --- [VS-CODE] [LAUNCH.json]
+// ---
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+// https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+{
+	"version": "0.2.0",
+	"configurations": [
+		// &&&
+		// &&& playwright - Launch (a playwright debug script) via NPM",
+		// &&&
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "💀 SCRAP [exec]", // $$$
+			"runtimeArgs": ["run-script", "scrapper--console"],
+			"runtimeExecutable": "/Users/yo/.nvm/versions/node/v18.4.0/bin/npm",
+			"skipFiles": ["<node_internals>/**"]
+		},
+		// @@@
+		// @@@ scrap MS
+		// @@@
+		// {
+		// 	"type": "node",
+		// 	"request": "launch",
+		// 	"name": "💀 debug scrapper index-CLI", // $$$
+		// 	"args": ["--mode=multicine"],
+		// 	"skipFiles": ["<node_internals>/**"],
+		// 	"program": "${workspaceFolder}/0-scrap/index-CLI.js"
+		// }
+		// %%%
+		// %%%
+		// %%%
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "💀 VITEST [current file]", // $$$
+			"autoAttachChildProcesses": true,
+			"skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+			"program": "${workspaceRoot}/node_modules/vitest/vitest.mjs",
+			"args": ["run", "${relativeFile}"],
+			"smartStep": true,
+			"console": "integratedTerminal"
+		},
+		// €€€
+		// €€€
+		// €€€
+		{
+			"type": "node",
+			"name": "💀 SVELTEKIT - debug via npm", // $$$
+			"request": "launch",
+			"cwd": "${workspaceFolder}/2-VIEWER",
+			"runtimeExecutable": "npm",
+			"runtimeArgs": ["run-script", "start"]
+		}
+	]
+}
