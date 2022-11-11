@@ -1,8 +1,9 @@
-# WEB-AGENCY TOOL-1
+# WEB-AGENCY -- SITE GENERATOR
 
-## [chap 2 - GENESIS: la Genèse]
+## [chap 2 - GENESIS: la Genèse de l'Architecture Modulaire Distribuée]
 
-WIKI PROJECT (google site)  
+### WIKI PROJECT (google site)
+
 https://sites.google.com/view/web-agency/home
 
 ![logo](https://github.com/regnou/genesis/blob/main/axelo/i/genesis.jpg)
