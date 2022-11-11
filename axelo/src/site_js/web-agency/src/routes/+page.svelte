@@ -1,5 +1,9 @@
 <script lang="ts">
-	import Header from "$lib/Header.svelte";
-</script>
-
-<Header/>
+    import Cell from "@regnou.a/ui-cell"
+    import Header from "@regnou.a/ui-header"
+  </script>
+  <Header/>
+  <Header/>
+  <Header/>
+  <Cell/>
+  <Cell/>
