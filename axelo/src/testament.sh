@@ -13,14 +13,15 @@ cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo'
 # -
 
 # @@@
-# @@@ DEPENDENCIES
+# @@@ DEPs
 # @@@
-# -
+# $$$ gh
 # brew install gh
-# -
+# $$$ firebase
 # curl -sL https://firebase.tools | upgrade=true bash
 # npm install -g firebase-tools
-# -
+# $$$ latest version of node
+# nvm install 19.0.1
 
 # @@@
 # @@@ VAR

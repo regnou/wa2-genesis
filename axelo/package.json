@@ -1,4 +1,7 @@
 {
+  "name": "@regnou.a/site-web-agency",
+  "version": "0.0.1",
+  "type": "module",
   "dependencies": {
     "firebase": "^9.13.0"
   }
