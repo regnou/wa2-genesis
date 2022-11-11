@@ -1,4 +1,4 @@
-# WEB-AGENCY -- SITE GENERATOR
+# WEB-AGENCY -- SITE GENERATOR / GENESIS
 
 ## [chap 2 - GENESIS: la Genèse de l'Architecture Modulaire Distribuée]
 
