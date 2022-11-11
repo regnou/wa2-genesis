@@ -6,8 +6,8 @@ https://sites.google.com/view/web-agency/genesis
 
 # WWW.WEB-AGENCY.APP
 
-# SITE GENERATOR / GENESIS
+## SITE GENERATOR / GENESIS
 
-## [ chap 2 ]
+### [ chap 2 ]
 
-## GENESIS: la Genèse de l'Architecture Modulaire Distribuée
+### GENESIS: la Genèse de l'Architecture Modulaire Distribuée
