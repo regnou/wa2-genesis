@@ -11,3 +11,6 @@ https://sites.google.com/view/web-agency/genesis
 ### [ chap 2 ]
 
 ### GENESIS: la Genèse de l'Architecture Modulaire Distribuée
+
+Table des acteur
+alfred-script - MON serviteur

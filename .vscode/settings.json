@@ -2,7 +2,9 @@
   // €€€ FILES
   "files.exclude": {
     // --- ok GLOBAL
-    // "**/node_modules": true,
+    "**/.svelte-kit": true,
+    "**/node_modules": true,
+    // ---
     "firestore-debug.log": true,
     "firebase-debug.log": true,
     "pnpm-lock.yaml": true,
@@ -32,16 +34,15 @@
     "root.code-workspace": true,
     "postcss.config.cjs": true,
     "playwright.config.ts": true,
-    "playwright-ct.config.ts": true,
+    "playwright-ct.config.ts": true
     // "JSON_ENTRIES.js": true,
-    ".svelte-kit": true
     // ".scrapper-kit": true
   },
   // €€€ SEARCH
   "search.exclude": {
     "**/0-DROP": true,
-    ".svelte-kit": true,
-    ".scrapper-kit": true
+    "**/.svelte-kit": true,
+    "**/.scrapper-kit": true
     // "/___ENV__": true,
     // "/static": true,
     // "/public": true,

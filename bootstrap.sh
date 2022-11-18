@@ -1,10 +1,8 @@
 #!/bin/sh
 
-cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo'
+cd '/Users/yo/0HOME/0WEBAGENCY/0GH/chap2-genesis'
 
-# @@@
 # @@@ SECURITY
-# @@@
 # -
 #  token GH (pour deploy)
 # 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
@@ -12,45 +10,41 @@ cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo'
 1//0hN_DcQPIpN3yCgYIARAAGBESNwF-L9IrjG8hC0syJuvtPmMqPXq-w6eAGAO1WfQyX3d93ghYtA1JphjSNESIVQdw19FduF9QUTw
 # -
 
-# @@@
 # @@@ DEPs
-# @@@
 # $$$ gh
 # brew install gh
+
 # $$$ firebase
 # curl -sL https://firebase.tools | upgrade=true bash
 # npm install -g firebase-tools
-# $$$ latest version of node
+
+# $$$ node
 # nvm install 19.0.1
 
-# @@@
 # @@@ VAR
-# @@@
 
-# @@@
-# @@@ TESTAMENT SCRIPT STARTS
-# @@@
+# @@@ BOOTSTRAP is starting
 # $$$ 1- Creation de github
-# https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
+# -- https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
 git init -b main
 touch "README.md"
-touch "testament.sh"
+touch "bootstrap.sh"
 gh repo create
-# organization-name/wa
-git add . && git commit -m "testament"
+# -- organization-name/wa
+git add . && git commit -m "add file bootstrap"
 git push --set-upstream origin main
 git push
-# gh repo rename genesis
+# -- gh repo rename genesis
 
 # $$$ 2- Creation d un component sveltekit
-cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo/src/modules_js'
+cd '$GENESIS/src/1-reusable-modules'
 pnpm create svelte@latest c0
 cd c0
 pnpm i
 pnpm run dev -- --open
 
 # $$$ 3- Creation de firebase
-cd '/Users/yo/0HOME/0WEBAGENCY/0GH/GENESIS/axelo'
+cd '/Users/yo/0HOME/0WEBAGENCY/0GH/chap2-genesis'
 firebase login:ci
 firebase init
 # wa-xxx
