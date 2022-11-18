@@ -3,7 +3,7 @@
 # . "$GENESIS/2-alfred-scripts/alias-cli.sh"
 # .
 
-# PUBLISH PACKAGES (REUSABLE COMPONENTS)
+# DEPLOY - PUBLISH PACKAGES (REUSABLE COMPONENTS)
 PATH_REU_MOD="$GENESIS/src/1-reusable-modules"
 PATH_REU_MOD_1="$PATH_REU_MOD/components/cell"
 PATH_REU_MOD_2="$PATH_REU_MOD/components/header"

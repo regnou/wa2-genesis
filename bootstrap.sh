@@ -21,8 +21,6 @@ cd '/Users/yo/0HOME/0WEBAGENCY/0GH/chap2-genesis'
 # $$$ node
 # nvm install 19.0.1
 
-# @@@ VAR
-
 # @@@ BOOTSTRAP is starting
 # $$$ 1- Creation de github
 # -- https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github

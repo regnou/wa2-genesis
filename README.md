@@ -1,6 +1,6 @@
 ### WIKI PROJECT (google site)
 
-https://sites.google.com/view/web-agency/genesis
+https://sites.google.com/view/web-agency/2-genesis
 
 ![logo](https://github.com/regnou/genesis/blob/main/axelo/i/genesis.jpg)
 
@@ -14,3 +14,5 @@ https://sites.google.com/view/web-agency/genesis
 
 Table des acteur
 alfred-script - MON serviteur
+output
+reusable-modules (elements utilises pour assembler le site)
