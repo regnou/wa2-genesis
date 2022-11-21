@@ -1,4 +1,4 @@
-![logo](https://github.com/regnou/genesis/blob/main/axelo/i/genesis.jpg)
+![logo](https://github.com/regnou/wa2-genesis/blob/main/i/genesis.jpg)
 
 # WWW.WEB-AGENCY.APP
 
