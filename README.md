@@ -1,6 +1,6 @@
-![logo](https://github.com/regnou/wa2-genesis/blob/main/i/genesis.jpg)
-
 # WWW.WEB-AGENCY.APP
+
+![logo](https://github.com/regnou/wa2-genesis/blob/main/i/genesis.jpg)
 
 ## COSMOS (dev tools)
 
