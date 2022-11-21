@@ -1,12 +1,18 @@
-# WWW.WEB-AGENCY.APP
+# chap2: GENESIS (WA--site-generator) : la Genèse de l'Architecture Modulaire Distribuée
+
+`COMPANY`
+
+> http://www.web-agency.app
+
+`RESUME`
+
+> https://cv-regnoult-axel.web.app
 
 ![logo](https://github.com/regnou/wa2-genesis/blob/main/i/genesis.jpg)
 
 ## chap1: COSMOS (WA--dev-tools)
 
 https://github.com/regnou/wa1-cosmos
-
-## chap2: GENESIS (WA--site-generator) : la Genèse de l'Architecture Modulaire Distribuée
 
 (HERE)
 
