@@ -1,4 +1,6 @@
-# chap2: GENESIS (WA--site-generator) : la Genèse de l'Architecture Modulaire Distribuée
+# chap2: GENESIS
+
+# Le générateur d'Architectures Modulaires Distribuées
 
 `COMPANY`
 
