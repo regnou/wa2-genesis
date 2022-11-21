@@ -2,9 +2,13 @@
 
 ![logo](https://github.com/regnou/wa2-genesis/blob/main/i/genesis.jpg)
 
-## COSMOS (dev tools)
+## chap1: COSMOS (WA--dev-tools)
 
-## GENESIS (site generator) : la Genèse de l'Architecture Modulaire Distribuée
+https://github.com/regnou/wa1-cosmos
+
+## chap2: GENESIS (WA--site-generator) : la Genèse de l'Architecture Modulaire Distribuée
+
+(HERE)
 
 ## #liste des tutos officiels:
 
@@ -17,7 +21,7 @@ SVELTE ADDERS - https://github.com/svelte-add
 
 https://sites.google.com/view/web-agency/2-genesis
 
-### Table des acteur
+### Table des acteurs
 
 alfred-script -> MON serviteur  
 output -> list of generated files (websites that are generated)  
